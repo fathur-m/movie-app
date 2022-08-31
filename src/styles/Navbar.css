@@ -1,0 +1,48 @@
+.nav__container {
+  margin: auto;
+  width: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  height: 75px;
+}
+.nav__bg {
+  background: var(--mainColor);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.195);
+}
+.nav {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+.nav__logo {
+  display: flex;
+  align-items: flex-end;
+  color: var(--white);
+  cursor: pointer;
+}
+.nav__logo > svg {
+  width: 80px;
+  height: 35px;
+}
+.nav__logo > svg > path {
+  fill: var(--white);
+}
+.logo__text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #eeeeee;
+}
+.sign {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  background: none;
+  cursor: pointer;
+}

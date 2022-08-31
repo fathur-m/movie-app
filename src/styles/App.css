@@ -1,0 +1,54 @@
+:root {
+  --mainColor: #6a8cbf;
+  --black: #1e1c1c;
+  --white: #eeeeee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  color: var(--white);
+}
+button {
+  border: none;
+  outline: none;
+  appearance: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -moz-appearance: none;
+}
+
+body {
+  margin: 0;
+  background-color: var(--mainColor);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 1rem;
+}
+.loading {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
